@@ -26,3 +26,26 @@ The application uses an Application Load Balancer to distribute incoming traffic
                   \           /
                    v         v
                     RDS MySQL
+
+## 📸 Project Screenshots
+
+### AWS Architecture
+![AWS Architecture](docs/architecture.png)
+
+### VPC
+![VPC](vpc.vpc.png)
+
+### EC2 Instances
+![EC2 Instances](ec2.png)
+
+### Application Load Balancer
+![Application Load Balancer](alb.png)
+
+### Auto Scaling Group
+![Auto Scaling Group](autoscaling.png)
+
+### Target Group
+![Target Group](Target-group.png)
+
+### RDS MySQL
+![RDS MySQL](rds.png)
