@@ -30,7 +30,8 @@ The application uses an Application Load Balancer to distribute incoming traffic
 ## 📸 Project Screenshots
 
 ### AWS Architecture
-![AWS Architecture](docs/architecture.png)
+![AWS Architecture] <img width="1536" height="1024" alt="AWS Auto-Scaling E-Commerce Platform " src="https://github.com/user-attachments/assets/2883cf0c-9a04-4c8b-9324-006b9dcc5fab" />
+
 
 ### VPC
 ![VPC](vpc.vpc.png)
