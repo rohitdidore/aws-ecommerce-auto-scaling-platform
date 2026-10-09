@@ -27,6 +27,30 @@ The application uses an Application Load Balancer to distribute incoming traffic
                    v         v
                     RDS MySQL
 
+```
+```
+
+## 🎯 Project Objectives
+
+* Build cloud infrastructure using AWS networking services.
+* Distribute incoming HTTP traffic through an Application Load Balancer.
+* Configure Auto Scaling to manage EC2 application instances.
+* Deploy a MySQL database using Amazon RDS.
+* Separate application and database access using security groups.
+* Document the infrastructure and configuration through screenshots.
+
+## 🛠️ AWS Services Used
+
+| AWS Service                | Purpose                                |
+| -------------------------- | -------------------------------------- |
+| Amazon VPC                 | Creates an isolated cloud network      |
+| Public and Private Subnets | Organizes resources by network access  |
+| Amazon EC2                 | Runs application servers               |
+| Application Load Balancer  | Distributes incoming traffic           |
+| Auto Scaling Group         | Adjusts the number of EC2 instances    |
+| Amazon RDS for MySQL       | Provides a managed relational database |
+| Security Groups            | Controls inbound and outbound traffic  |
+
 
 ## 📸 Project Screenshots
 
