@@ -27,26 +27,33 @@ The application uses an Application Load Balancer to distribute incoming traffic
                    v         v
                     RDS MySQL
 
+
 ## 📸 Project Screenshots
 
 ### AWS Architecture
-![AWS Architecture] <img width="1536" height="1024" alt="AWS Auto-Scaling E-Commerce Platform " src="https://github.com/user-attachments/assets/2883cf0c-9a04-4c8b-9324-006b9dcc5fab" />
 
+![AWS Architecture](https://github.com/user-attachments/assets/2883cf0c-9a04-4c8b-9324-006b9dcc5fab)
 
 ### VPC
-![VPC](vpc.vpc.png)
+
+![VPC](vpc.png.png)
 
 ### EC2 Instances
+
 ![EC2 Instances](ec2.png)
 
 ### Application Load Balancer
+
 ![Application Load Balancer](alb.png)
 
 ### Auto Scaling Group
+
 ![Auto Scaling Group](autoscaling.png)
 
 ### Target Group
+
 ![Target Group](Target-group.png)
 
 ### RDS MySQL
+
 ![RDS MySQL](rds.png)
