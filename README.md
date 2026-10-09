@@ -51,6 +51,29 @@ The application uses an Application Load Balancer to distribute incoming traffic
 | Amazon RDS for MySQL       | Provides a managed relational database |
 | Security Groups            | Controls inbound and outbound traffic  |
 
+## 🧪 Deployment and Testing
+
+### Deployment Components
+
+* **Networking:** A VPC with public and private subnets across two Availability Zones.
+* **Traffic Distribution:** An Application Load Balancer forwards HTTP requests to registered targets.
+* **Compute:** An Auto Scaling Group manages EC2 application instances.
+* **Database:** Amazon RDS for MySQL provides the relational database layer.
+* **Security:** Security Groups control traffic between the load balancer, application instances, and database.
+
+### Testing Checklist
+
+* [x] Verify that the Application Load Balancer is reachable.
+* [x] Verify that the Target Group reports healthy EC2 targets.
+* [x] Confirm that the application page loads through the load balancer DNS name.
+* [x] Verify that the Auto Scaling Group maintains the configured instance capacity.
+* [x] Confirm that database connectivity works from the authorized application layer.
+
+### Troubleshooting Notes
+
+If a target becomes unhealthy, check the EC2 instance status, application service, health check path, listener and target group configuration, and Security Group rules.
+
+
 
 ## 📸 Project Screenshots
 
